@@ -1,0 +1,186 @@
+    /* Font faces */
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+    .iframe-container {
+        height: auto;
+        width: 100vw;
+    }
+
+    /* Form styling */
+
+    .form-container {
+        padding: 35px 60px;
+        width: fit-content !important;
+    }
+
+    .form-container-visit {
+        background-color: #8b67bf;
+    }
+
+    .form-container-hire {
+        background-color: #3a374c;
+    }
+
+    form {
+        width: 315px;
+    }
+
+    .form-container h2 {
+        text-align: center;
+        font-family: 'Quicksand';
+        font-size: 37px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 300;
+        margin-top: 0px;
+    }
+
+    .fields-container {
+        display: flex;
+        gap: 10px;
+        align-items: ceter;
+        margin-bottom: 4px;
+        padding: 8px 12px;
+    }
+
+    .fields-container-booking {
+        background-color: #7858A3;
+    }
+
+    @-moz-document url-prefix() {
+
+        input:focus,
+        select:focus {
+            outline: none !important;
+            border: none !important;
+        }
+    }
+
+    input:focus,
+    select:focus {
+        outline: none;
+    }
+
+    #form-booking-visit .fields-container label,
+    #form-private-hire .fields-container label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+        font-size: 17px;
+        color: #FFF9FF;
+        font-family: 'Gotham', sans-serif;
+        font-weight: 500;
+        /* Medium weight */
+        min-width: 115px;
+    }
+
+    .fields-container label span {
+      margin-top: 9px;
+    }
+
+    #form-booking-visit .fields-container select,
+    #form-private-hire .fields-container select {
+        border-radius: 0;
+        height: 30px;
+        padding: 0px 8px;
+        text-align: center;
+        width: 60%;
+        color: #929397;
+        font-weight: 600;
+        font-family: 'Quicksand',
+    }
+
+    .datepicker {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    #book_visit_btn {
+        color: white;
+        margin-top: 4px;
+        border-radius: 30px;
+        width: 100%;
+        background-color: #D386E4;
+        text-transform: uppercase;
+        // font-family: 'Gotham', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 15px 30px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Date Picker CSS */
+    .hasDatepicker {
+        width: 100%;
+    }
+
+    .ui-datepicker {
+        width: 100% !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+    }
+
+    .ui-datepicker-header {
+        background-color: white !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    table {
+        border: none !important;
+        margin: 0 !important;
+    }
+
+    th {
+        padding: 0 !important;
+    }
+
+    .ui-state-default {
+        text-decoration: none !important;
+        border: 1px solid transparent !important;
+        background-color: transparent !important;
+        text-align: center !important;
+    }
+
+    .ui-state-active {
+        color: black !important;
+        border: 1px solid #D386E4 !important;
+        border-radius: 30px !important;
+    }
+
+
+    /* hire */
+    .fields-container-hire {
+        background-color: #2C293D;
+    }
+
+    #form-booking-visit .fields-container input[type="number"],
+    #form-booking-visit .fields-container input[type="text"],
+    #form-private-hire .fields-container input[type="number"],
+    #form-private-hire .fields-container input[type="text"] {
+        border-radius: 0;
+        height: 30px;
+        padding: 0px 8px;
+        text-align: center;
+        width: 60%;
+        font-size: 14px;
+        color: #929397;
+        outline: none;
+    }
+
+    #hire_btn {
+//        font-family: 'Gotham', sans-serif;
+        color: white;
+        margin-top: 4px;
+        border-radius: 30px;
+        width: 100%;
+        background-color: #8E67C2;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 15px 30px;
+        border: none;
+        cursor: pointer;
+    }
